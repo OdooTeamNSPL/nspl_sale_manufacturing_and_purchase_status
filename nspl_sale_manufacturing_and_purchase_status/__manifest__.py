@@ -1,6 +1,6 @@
 {
     'name': 'Manufacturing & Purchase Orders from Sale Order',
-    'version': '18.0',
+    'version': '19.0.1',
     'summary': 'Adds buttons in Sale Order to view related Manufacturing and Purchase Orders.',
     'description': """
 This module adds two buttons in the Sale Order form:
@@ -12,15 +12,16 @@ The orders are filtered by the Sale Order name (origin field).
     'category': 'Sales/Manufacturing/Purchase',
     'sequence': 2,
     'author': 'Namah Softech Private Limited',
-    'contributors': 'Mohit Nare',
+    'contributors': ['Mohit Nare'],
     'price': 7.99,
     'currency': 'USD',
     'license': 'OPL-1',
     'website': 'http://namahsoftech.com/',
     'support': 'support@namahsoftech.com',
+    'maintainer': 'Namah Softech Private Limited',
     'depends': ['sale_management', 'mrp', 'purchase', ],
     'data': [
-        'views/sale_order_view.xml'
+        'views/sale_order_view.xml',
     ],
     'images': ['static/description/img/banner.png'],
     'installable': True,
